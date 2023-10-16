@@ -22,3 +22,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('about', [aboutController::class, 'index'])->name('about.index');
 
 Route::get('news', [newsController::class, 'index'])->name('news.index');
+
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\NewsController;
