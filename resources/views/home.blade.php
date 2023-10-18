@@ -40,6 +40,8 @@
 
                 <div class="d-grid gap-2 col-12 mx-auto">
                     <a class="btn btn-outline-primary" href="{{ route('home.index') }}" role="button">首頁</a>
+                    <a class="btn btn-outline-primary" href="{{ route('about.index') }}" role="button">關於本站</a>
+                    <a class="btn btn-outline-primary" href="{{ route('news.index') }}" role="button">最新消息</a>
                 </div>
 
                 <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
